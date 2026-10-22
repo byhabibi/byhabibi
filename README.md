@@ -1,77 +1,63 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e293b&height=200&section=header&text=Burhanudin%20Yusuf%20Habibi&fontSize=35&fontColor=ffffff"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:14532d&height=200&section=header&text=Burhanudin%20Yusuf%20Habibi&fontSize=35&fontColor=ffffff"/>
 
-# 👋 Hi, I'm Burhanudin Yusuf Habibi
+# Electronics and embedded systems
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=22c55e\&size=25\&center=true\&vCenter=true\&width=600\&lines=Aspiring+DevOps+Engineer;Docker+%7C+Linux+%7C+CI%2FCD;Building+Real+Infrastructure)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=22c55e&size=25&center=true&vCenter=true&width=720&lines=ESP32+firmware+and+custom+PCB;Industrial+machine+control;Coffee+roaster+controllers)
 
-🚀 DevOps enthusiast building real infrastructure projects using **Docker, Linux, CI/CD, and Cloud VPS**.
-
-Currently focusing on **automation, containerized environments, and monitoring stacks**.
+I design and bring up embedded controllers for real machines: ESP32 firmware, Nextion operator panels, sensor wiring, and the PCBs those boards plug into.
 
 ---
 
-# ⚙️ Tech Stack
+## Hardware
 
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge\&logo=github-actions\&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge\&logo=nginx\&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge\&logo=prometheus\&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge\&logo=grafana\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=for-the-badge&logo=platformio&logoColor=white)
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=for-the-badge&logo=kicad&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+
+ESP32 · PlatformIO · KiCad · Nextion HMI · Modbus RTU · thermocouples · PCB layout
 
 ---
 
-# 🚀 DevOps Projects
+## Machines
 
-### 🔧 Production DevOps Stack
+### Orion 05 — gas drum roaster
 
-Real-world DevOps environment deployed on VPS.
+ESP32 plus a companion Arduino. Bean, environment, and motor thermocouples, gas-valve servo, exhaust dimmer, gas-pressure and MQ sensing, Nextion roast curve, and safety shutdown.
 
-Features:
+https://github.com/byhabibi/orion-05
 
-* Docker multi-container architecture
-* Nginx reverse proxy with SSL
-* CI/CD pipeline with GitHub Actions
-* Prometheus + Grafana monitoring
-* Automated deployment
+### D01E — electric drum roaster
 
-Repository
+Same class of controller, built for a 3.6 kW electric heater. Firmware, panel, and the two-board set: main control and power I/O.
+
+https://github.com/byhabibi/d01e-roaster
+
+### D03 — control PCBs for a gas roaster
+
+The boards only. Main control and power I/O in KiCad: DevKit seat, fixed 5 V supply, three thermocouple modules, contactors on the power board.
+
+https://github.com/byhabibi/d03-pcb
+
+---
+
+## Also on the tools side
+
+Linux, Docker, and CI/CD, from earlier infrastructure work.
+
+Production stack
 https://github.com/byhabibi/production-stack-dev
 
-Live Demo
+Lab
 https://lab.bybi.web.id
 
----
-
-### 🧪 DevOps Learning Repository
-
-DevOps experiments and infrastructure learning.
-
-Topics include:
-
-* Linux server management
-* Docker fundamentals
-* Networking basics
-* Automation scripts
-
-Repository
+Learning notes
 https://github.com/byhabibi/devops-stack-learn
 
 ---
 
-# 🌐 Links
-
 Portfolio
 https://bybi.web.id
 
-DevOps Lab
-https://lab.bybi.web.id
-
 GitHub
 https://github.com/byhabibi
-
----
-
-🚀 *DevOps Engineering Journey in Progress*
